@@ -109,6 +109,7 @@ namespace Trabajo_de_best_Fit
             timer1.Stop();
         }
 
+        //En este metodo asignamos de etiqueta a la memoria que proceso esta ocupando el segmento de memoria
         public void IndiceLabel(int indice)
         {
             switch (indice)
@@ -138,6 +139,7 @@ namespace Trabajo_de_best_Fit
             timer1.Start();
         }
 
+        //Comentario
         private void button3_Click(object sender, EventArgs e)
         {
             if (textBox1.Text != null)
